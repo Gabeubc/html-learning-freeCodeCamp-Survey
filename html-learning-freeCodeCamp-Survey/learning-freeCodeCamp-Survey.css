@@ -1,0 +1,90 @@
+body{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    left:0;
+    right:0;
+    padding: 2%
+    
+}
+
+h1{
+    text-align: center;
+    width: fit-content;
+}
+
+p{
+    text-align: center;
+    padding: 0 10%;
+}
+
+form{
+    background-color: rgba(36, 14, 65, 0.8);
+    border-radius: 1%;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5%
+}
+
+label{
+    display: block;
+    padding: 1%
+}
+
+input{
+    border: none;
+    width: 100%;
+    height: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+label input{
+    width: 5%;
+}
+
+input[type="submit"]{
+    border: none;
+    width: 104%;
+    height: auto;
+    background-color: rgb(36, 33, 33);
+    color:rgb(255, 255, 255)
+}
+
+
+select{
+    border: none;
+    border-radius: 5px;
+    width: 104%;
+    height: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    color: grey
+}
+
+fieldset{
+    border: none;
+}
+
+textarea{
+    border: none;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 2%;
+}
+
+#description{
+    font-style: italic;
+}
+
+.highlight{
+    font-size: x-small;
+}
